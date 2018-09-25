@@ -14,13 +14,13 @@
 show("Calculate the cost of pizza")
 
 let diameter = Float(askForNumber("Enter diameter"))
-
-let price = (diameter * 0.5) + 1.75
+let quantity = Float(askForNumber("how many would you like"))
+let price = (diameter * 0.5) + (1.75 * quantity)
 let tax = price * 0.13
     show("the price is: \(price+tax)")
 </string>
 			<key>ModifiedRange</key>
-			<string>{145, 307}</string>
+			<string>{145, 381}</string>
 			<key>OriginalContent</key>
 			<string>show("What is your name?")
 
